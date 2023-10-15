@@ -12,7 +12,8 @@ TEXT=" nyettsy
 clear
 #curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL
 
-
+apt update
+apt upgrade 
 TEXT2="
 <code>◇━━━━━━━━━━━━━━◇</code>
 <code> 🔱 AUTOSCRIPT PREMIUM</code>
